@@ -32,4 +32,3 @@ def test_get_coin_combination_calculate_correctly(cents, expected): # noqa
 def test_get_coin_combination_raise_correct_errors(coins, expected): # noqa
     with pytest.raises(expected):
         get_coin_combination(coins)
-
